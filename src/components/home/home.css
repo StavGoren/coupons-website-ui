@@ -1,0 +1,73 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CardsWithTitleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.Title.WithButton {
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.Title.WithCount {
+    justify-content: start;
+    gap: 1rem;
+}
+
+.CardsContainer {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.Home>h1 {
+    text-align: center;
+}
+
+/* .Companies{
+    background-color: aqua;
+    width: 400px;
+} */
+
+.SeeAll {
+    display: flex;
+    padding: 0.8rem 0.9rem;
+    align-items: center;
+    border-radius: 0.4rem;
+    background: var(--accent-100);
+    border: none;
+    color: var(--accent-600);
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.SeeAll:hover {
+    background: var(--accent-200);
+}
+
+@media(max-width:1000px) {
+    .CardsContainer {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+}
+
+@media(max-width:600px) {
+    .CardsContainer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

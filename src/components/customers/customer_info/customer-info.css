@@ -1,0 +1,47 @@
+.NavButtons button {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(161, 161, 161, 0.568);
+    border: none;
+    border-radius: 3px;
+}
+
+.CardsWithTitleContainer.Purchases{
+    width: 100%;
+    max-width: 30rem;
+    margin-inline: auto;
+}
+
+.PurcahsesList {
+    display: flex;
+    max-width: 25rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Card.Purchase {
+    flex-direction: row;
+    cursor: auto;
+    width: 100%;
+}
+
+.Card.Purchase>img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.Card.Purchase:hover{
+    transform: none;
+}
+
+.CardsContainer.Purchases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Card.Purchase>.DetailsContainer{
+    width: 100%;
+    height: 8rem;
+}

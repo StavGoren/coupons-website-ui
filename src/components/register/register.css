@@ -1,0 +1,97 @@
+.Register{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 50vh;
+}
+
+.RegisterForm{
+    width: 500px;
+    height: 700px;
+    /* background-color: aquamarine; */
+    
+}
+.RegisterForm>h1{
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.RegisterForm>p{
+    text-align: center;
+}
+
+.RegisterForm>input{
+    width: 250px;
+    height: 40px;
+    margin-bottom: -1px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.RegisterForm>input:hover{
+    background-color: rgba(240, 240, 240, 0.288);
+}
+
+.RegisterForm>button{
+    background-color: rgb(159, 207, 162);
+    width: 200px;
+    height:45px;
+    border:none;
+    border-radius: 3px;
+    margin:auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    
+}
+
+.RegisterForm>button:hover{
+    background-color: rgb(149, 194, 152);
+    transition: 200ms;
+}
+
+.LoginLink{
+    color: black;
+}
+
+.LoginLink:hover{
+    text-decoration: none;
+    color: grey;
+    font-weight: 500;
+}
+
+.WrongPassword{
+    width: 400px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: rgb(255, 63, 63);
+    border: 6px solid rgb(252, 110, 110);
+    justify-content: center;
+    display: flex;
+    line-height: 100px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SuccessfulRegister{
+    width: 400px;
+    height: 100px;
+    margin-top: 50px;
+    background-color: rgb(44, 179, 55);
+    border: 6px solid rgba(100, 228, 106, 0.664);;
+    justify-content: center;
+    display: flex;
+    line-height: 100px;
+    font-size: x-large;
+    font-weight: bold;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}

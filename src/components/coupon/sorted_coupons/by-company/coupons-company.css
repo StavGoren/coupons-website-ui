@@ -1,0 +1,38 @@
+.EntityDetails {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.CompanyImage {
+    height: 4rem;
+
+}
+
+.EntityBanner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+
+.EntityDetail {
+    display: flex;
+    height: 2.5rem;
+    padding: 0 0.9rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+    border-radius: 0.4rem;
+    background: rgba(19, 21, 21, 0.08);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.EntityDetail svg {
+    width: 0.9rem;
+    height: 0.9rem;
+}

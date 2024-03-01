@@ -1,0 +1,21 @@
+.CustomersTable{
+    position: absolute; 
+    top: 20%;
+    left: 40%;
+    /* margin-top: 40%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+.CustomersTable table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.CustomersTable td{
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    padding: 8px;
+}
+
+.CustomersTable thead{
+    background-color: rgba(219, 142, 0, 0.26)
+}

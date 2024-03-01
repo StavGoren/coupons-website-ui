@@ -1,0 +1,22 @@
+/* .UsersPage{
+    position: absolute; 
+    top: 20%;
+    left: 30%;
+    margin-top: 40%;
+    transform: translate(-50%, -50%); 
+}
+
+.UsersPage table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.UsersPage td{
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    width: 180px;
+    height: 30px;
+}
+
+.UsersPage thead{
+    background-color: rgba(219, 142, 0, 0.26)
+} */

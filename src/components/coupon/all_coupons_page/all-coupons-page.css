@@ -1,0 +1,79 @@
+.OpenModalButton {
+    float: right;
+}
+
+.CreateCouponModal {
+    width: 450px;
+    height: 630px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    line-height: 50px;
+}
+
+.CreateCouponModal button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 90px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    float: left;
+}
+
+.Name {
+    width: 150px;
+    height: 28px;
+}
+
+.Price {
+    width: 150px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.Description {
+    width: 318px;
+    height: 150px;
+    margin-top: 5px;
+}
+
+.StartDate {
+    width: 100px;
+    height: 28px;
+
+}
+
+.EndDate {
+    width: 100px;
+    height: 28px;
+    margin-left: 10px;
+}
+
+.CouponCode {
+    width: 150px;
+    height: 28px;
+
+}
+
+.UnitsInStock {
+    margin-left: 10px;
+    width: 70px;
+    height: 28px;
+}
+
+.ImageSrc {
+    width: 318px;
+    height: 28px;
+}
+
+.SelectCategory {
+    width: 120px;
+    height: 32px;
+}

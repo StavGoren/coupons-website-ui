@@ -1,0 +1,15 @@
+.PurchasesOfCustomer{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    margin-top: 50px;
+}
+/* 
+        top: '50%',
+        left: '50%',
+        right: 'auto',
+        bottom: 'auto',
+        marginRight: '-50%',
+        transform: 'translate(-50%, -50%)', */

@@ -1,0 +1,25 @@
+.CategoryBanner {
+    height: 12rem;
+    position: relative;
+    display: flex;
+    align-items: end;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    overflow: hidden;
+    color: var(--primary-100);
+    background-image: linear-gradient(to top right, #131515ad, transparent);
+}
+
+.CategoryBanner img {
+    position: absolute;
+    inset: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.CategoryBanner span {
+    font-size: 3rem;
+    font-weight: 700;
+}

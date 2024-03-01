@@ -1,0 +1,46 @@
+.Button {
+    display: flex;
+    height: 2.5rem;
+    padding: 0rem 0.9rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.4rem;
+    text-decoration: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.Button.Primary {
+    background-color: var(--accent-500);
+    color: var(--primary-100);
+}
+
+.Button.Secondary {
+    background-color: var(--primary-200);
+    color: var(--primary-900);
+}
+
+.Button.Danger {
+    background-color: rgb(255, 20, 59);
+    color: var(--primary-100);
+}
+
+.Button.Danger:hover {
+    background-color: rgb(255, 41, 77);
+}
+
+.Header .Button.Secondary {
+    background-color: var(--primary-800);
+    color: var(--primary-100);
+}
+
+.Button.Secondary:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08));
+
+}
+
+.Header .Button.Secondary:hover,
+.Button:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.08));
+}

@@ -1,0 +1,28 @@
+.Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.Title.WithButton {
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.SeeAll {
+    display: flex;
+    padding: 0.8rem 0.9rem;
+    align-items: center;
+    border-radius: 0.4rem;
+    background: var(--accent-100);
+    border: none;
+    color: var(--accent-600);
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.SeeAll:hover {
+    background: var(--accent-200);
+}

@@ -1,0 +1,284 @@
+button:hover {
+    cursor: pointer;
+}
+
+.Header {
+    width: 100%;
+    height: 5rem;
+    background-color: var(--primary-900);
+    color: var(--primary-100);
+    position: relative;
+}
+
+.Header .Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.Header>Link {
+    text-decoration: none;
+}
+
+.Header>div {
+    margin: auto;
+}
+
+.WebsiteName {
+    color: var(--primary-100);
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.WebsiteName>span {
+    color: var(--accent-500);
+}
+
+.HeaderGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Menu{
+    display: none;
+    height: 2rem;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.ButtonGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.DropDown {
+    width: 250px
+}
+
+.SearchBox {
+    display: flex;
+    width: 16rem;
+    height: 2.5rem;
+    padding-left: 0px;
+    align-items: center;
+    border-radius: 0.4rem;
+    background-color: var(--primary-800);
+}
+
+.SearchBox:has(> .SearchBar:focus){
+    outline: 1px solid var(--primary-500);
+}
+
+.SearchBar {
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding-inline: 0.8rem;
+    color: var(--primary-100);
+}
+
+.SearchBar:focus{
+    outline: none;
+}
+
+.SearchButton {
+    width: 1rem;
+    height: 1rem;
+    padding: 0.75rem;
+    background-color: transparent;
+    color: var(--primary-100);
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.NavBar {
+    display: flex;
+    align-items: center;
+}
+
+.NavBar button {
+    display: flex;
+    padding: 0.9rem;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 300;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    color: var(--primary-100);
+}
+
+.NavBar button:hover {}
+
+.CategoriesDropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.CompaniesDropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.CouponsDropDown {
+    position: relative;
+    display: inline-block;
+}
+
+.CouponsCategoryList {
+    position: relative;
+    display: inline-block;
+}
+
+.ItemsList {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    width: 16rem;
+    border-radius: 0.4rem;
+    box-shadow: var(--shadow);
+    z-index: 2;
+    gap: 1px;
+    overflow: hidden;
+    background-color: var(--primary-100);
+}
+
+.SortedCouponsList {
+    display: none;
+    position: absolute;
+    background-color: rgba(172, 172, 172, 0.658);
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.Item {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+    color: var(--primary-900);
+    background-color: var(--primary-0);
+    padding: 0.4rem;    
+}
+
+.DropdownItem img {
+    height: 4rem;
+    width: 4rem;
+    object-fit: contain;
+}
+
+.Item:hover {
+    cursor: pointer;
+    background-color: var(--primary-100);
+}
+
+.CategoriesDropdown img {
+    object-fit: cover;
+}
+
+.CategoriesDropdown:hover .DropdownList {
+    display: flex;
+}
+
+.CompaniesDropdown:hover .DropdownList {
+    display: flex;
+}
+
+.CouponsDropDown:hover .DropdownList {
+    display: flex;
+}
+
+.FilterredSearchList {
+    background-color: white;
+}
+
+.CartIcon {
+    color: white;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.CartIcon:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.918);
+}
+
+@media (max-width: 1000px){
+    .Menu{
+        display: block;
+    }
+    .NavBar{
+        position: absolute;
+        z-index: 9999;
+        background-color: var(--primary-900);
+        inset: 0;
+        flex-direction: column;
+        align-items: stretch;
+        bottom: auto;
+        top: 100%;
+        display: none;
+    }
+    .NavBar button {
+        height: 5rem;
+        padding: 0 2.5rem;
+
+    }
+    .Header:has(.Menu.Open) .NavBar{
+        display: flex;
+    }
+
+    .CategoriesDropdown:hover .DropdownList {
+        display: none;
+    }
+    
+    .CompaniesDropdown:hover .DropdownList {
+        display: none;
+    }
+    
+    .CouponsDropDown:hover .DropdownList {
+        display: none;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .SearchBar:not(:focus){
+        width: 0;
+        padding: 0;
+    }
+    .SearchBox{
+        width: initial;
+    }
+    .Header:has(.SearchBar:focus) .Menu {
+        display: none;
+    }
+    .Header:has(.SearchBar:focus) .WebsiteName {
+        display: none;
+    }
+    .Header:has(.SearchBar:focus) .AfterLogin {
+        display: none;
+    }
+    .Header:has(.SearchBar:focus) .Button {
+        display: none;
+    }
+    .Header:has(.SearchBar:focus) .ButtonGroup {
+        width: 100%;
+    }
+    .Header:has(.SearchBar:focus) .SearchBox {
+        width: 100%;
+    }
+    .Header:has(.SearchBar:focus) form {
+        width: 100%;
+    }
+}

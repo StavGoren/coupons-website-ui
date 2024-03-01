@@ -1,0 +1,8 @@
+.TableCell {
+    display: block;
+    padding: 1rem;
+    background-color: var(--primary-0);
+    font-size: 1rem;
+    font-weight: 300;
+    width: 100%;   
+}

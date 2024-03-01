@@ -1,0 +1,53 @@
+.Card.FullWidth {
+    flex-direction: row;
+
+}
+
+.Card.FullWidth img {
+    aspect-ratio: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.Card.FullWidth>.DetailsContainer {
+    width: 100%;
+}
+
+.Card.FullWidth .CardTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.Link {
+    color: var(--accent-500);
+}
+
+.CouponCode {
+    color: var(--accent-500);
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.Price {
+    color: var(--primary-900);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.PriceWrapper{
+    text-align: right;
+}
+
+.PriceAndDateWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.CouponImage{
+    width: 100%;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color: var(--primary-0);
+}

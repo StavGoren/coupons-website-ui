@@ -1,0 +1,38 @@
+/* .CompaniesContainer {
+    display: flex;
+    max-width: 75rem;
+    padding: 4rem 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+
+} */
+
+.CompaniesHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    width: 100%;
+    height: 2.25rem;
+    background-color: aqua;
+}
+
+.SubContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+    width: 100%;
+    height: 1rem;
+}
+
+.CardsHolder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+

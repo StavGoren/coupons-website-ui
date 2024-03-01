@@ -1,0 +1,15 @@
+.Table {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    border-radius: 0.8rem;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    background-color: var(--primary-200);
+}
+
+.NavButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

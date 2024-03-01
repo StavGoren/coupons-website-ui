@@ -1,0 +1,13 @@
+.ResultCount {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: var(--accent-100);
+    color: var(--accent-600);
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+

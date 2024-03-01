@@ -1,0 +1,49 @@
+/* .CategoriesPage{
+    height: 600px;
+}
+
+.CategoriesContainer{
+    height: 170px;
+    line-height: 170px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.OpenModalButton{
+    width: 45px;
+    height: 45px;
+    font-size: xx-large;
+    margin-left: 10px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 3px;
+    line-height: calc(height-45px);
+}
+
+.OpenModalButton:hover{
+    cursor: pointer;
+    border: 4px solid rgb(48, 138, 48);
+}
+
+.NavButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card.AddCategory{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-0);
+    color: var(--primary-200);
+    font-size: 5rem;
+    border: 0;
+    padding: 0;
+}
+.Card.AddCategory:hover{
+    color: var(--accent-500);
+}
+

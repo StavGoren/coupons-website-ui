@@ -1,0 +1,65 @@
+/* .Confirm {
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    align-self: flex-start;    
+    margin-left: 40%;
+    margin-top: 10%;
+    line-height: 50px;
+}
+
+.Confirm input{
+    width: 150px;
+    height: 28px;
+    
+}
+
+
+.ConfirmModal button{
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 75px;
+    height: 25px;
+    margin-left: 6px;
+    font-size: medium;
+    float: left;
+}
+
+.Discard {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    align-self: flex-start;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.Discard button {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    width: 75px;
+    height: 25px;
+    margin-left: 6px;
+    font-size: medium;
+    float: left;
+}
+
+.ConfirmDelete{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-align: center;
+    align-self: flex-start;
+    margin-left: 40%;
+    margin-top: 10%;
+} */

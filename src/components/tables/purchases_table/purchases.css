@@ -1,0 +1,34 @@
+/* .PurchasesTable{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.PurchasesTable td{
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    padding: 8px;
+}
+
+.PurchasesTable thead{
+    background-color: rgba(219, 142, 0, 0.26)
+} */
+
+.CategoriesFilter {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.PurchasesTable table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.PurchasesTable td{
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+.PurchasesTable thead{
+    background-color: rgba(219, 142, 0, 0.26)
+}

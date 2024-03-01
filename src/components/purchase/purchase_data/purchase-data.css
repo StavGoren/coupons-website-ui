@@ -1,0 +1,13 @@
+.PurchaseData table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.PurchaseData td{
+    border: 1px solid rgba(0, 0, 0, 0.445);
+    padding: 8px;
+}
+
+.PurchaseData thead{
+    background-color: rgba(219, 142, 0, 0.26)
+}

@@ -1,0 +1,211 @@
+.Card {
+    border-radius: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease-out;
+}
+
+.Card:hover {
+    transform: translateY(-0.3rem);
+}
+
+.Card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: var(--primary-0);
+    object-fit: contain;
+}
+
+/* 
+.CardsContainer.Companies .Card img {
+    aspect-ratio: 2 / 1;
+    object-fit: contain;
+    padding: 1rem;
+
+}
+
+.CardsContainer.Companies .Card {} */
+
+.Card img:hover {
+    cursor: pointer;
+}
+
+.Card.Category img {
+    object-fit: cover;
+    aspect-ratio: 2 / 1;
+
+}
+
+.DetailsContainer {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--primary-0);
+    color: var(--primary-600);
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.CardTitle {
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    color: var(--primary-900);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.ButtonsContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.ButtonsContainer .Button {
+    width: 100%;
+}
+
+.MoreInfo {
+    height: 42px;
+    width: 152px;
+    background-color: rgba(192, 192, 192, 0.226);
+    border: none;
+    border-radius: 3px;
+}
+
+.MoreInfo:hover {
+    background-color: rgba(192, 192, 192, 0.507);
+}
+
+.BuyNow {
+    height: 42px;
+    width: 152px;
+    border: none;
+    background-color: teal;
+    border-radius: 3px;
+}
+
+.BuyNow:hover {
+    background-color: rgb(8, 140, 140);
+    border: none;
+}
+
+/* .DeleteCouponButton {
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+    float: right;
+    margin-top: -318px;
+    margin-right: -20px;
+    font-size: x-large;
+}
+
+.DeleteCouponButton:hover {
+    font-weight: bold;
+    color: rgba(92, 92, 92, 0.5);
+} */
+
+.EditIcon {
+    position: absolute;
+    background-color: var(--primary-0);
+    border: none;
+    border-radius: 0.4rem;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--primary-100);
+    padding: 0.4rem;
+    top: 0.8rem;
+    right: 0.8rem;
+}
+
+.EditIcon:hover {
+    color: rgba(0, 0, 0, 0.767);
+    cursor: pointer;
+}
+
+.EditCoupon {
+    width: 450px;
+    height: 630px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 5%;
+    line-height: 50px;
+}
+
+.SaveOrDiscard {
+    width: 200px;
+    height: 70px;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.SaveOrDiscard button {
+    background-color: rgb(230, 230, 230);
+    border: none;
+    border-radius: 2px;
+    width: 90px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 3px;
+    font-size: large;
+    float: left;
+}
+
+.SaveButton:hover {
+    background-color: rgba(46, 139, 86, 0.603);
+}
+
+.DiscardButton:hover {
+    background-color: rgb(200, 200, 200);
+}
+
+.BeforeEdit>svg {
+    width: 23px;
+    height: 23px;
+    font-size: medium;
+    margin-left: 5px;
+}
+
+
+.BeforeEdit svg:hover {
+    color: rgb(47, 172, 15);
+    cursor: pointer;
+}
+
+.DuringEdit svg {
+    width: 23px;
+    height: 23px;
+    font-size: medium;
+}
+
+.DuringEdit svg:hover {
+    color: rgb(47, 172, 15);
+    cursor: pointer;
+}
+
+.PleaseLogin {
+    background-color: aquamarine;
+    color: black;
+    width: 40px;
+    height: 40px;
+}
+
+@media(max-width:1000px) {
+    .Card img {
+        aspect-ratio: 2 / 1;
+        object-fit: contain;
+    }
+}
